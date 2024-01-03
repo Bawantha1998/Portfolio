@@ -1,5 +1,5 @@
 import React from 'react';
-import personImg from "../..//assets/newedit.png";
+import personImg from "../..//assets/new(1).png";
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         {/* image container */}
         <div>
-          <img src={personImg} alt="Not Found" className="w-full md:max-w-lg mx-auto" />
+          <img src={personImg} alt="Not Found" className="w-full md:max-w-lg mx-auto "/>
         </div>
       </div>
     </main>
