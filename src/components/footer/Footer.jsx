@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
     <>
-    <section>
-        <div>dddsfsdfdsfsdsd</div>
-    </section>
+    <footer className="text-center py-6 dark:bg-slate-950 dark:text-white">
+       <p className="container">Copyright &copy; 2024 The Coding Journey || Made with popcorn</p>
+    </footer>
     </>
   )
 }
