@@ -1,6 +1,16 @@
 import React from 'react';
+import bawanthapdf from "../../assets/Bawantha.pdf";
+import download from "downloadjs";
 
 const About = () => {
+    const handleDownload = () => {
+        // const resumeUrl = [bawanthapdf];
+    
+        // Trigger the download using downloadjs
+        download(bawanthapdf);
+        console.log(bawanthapdf);
+      };
+
   return (
     <>
     <section id="about" className="bg-white dark:bg-slate-800 dark:text-white">
@@ -16,7 +26,13 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet. e velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
             <p>Lorem ipsum dolor sit amet,labore et dolore magna aliqua.</p>
             <div>
-                <a href="#" className="primary-btn inline-block my-6 mr-6">{''}Download Resume</a>
+                {/* <a href="" className="primary-btn inline-block my-6 mr-6">{''}Download Resume</a> */}
+                <button
+                className="primary-btn inline-block my-6 mr-6"
+                onClick={handleDownload}
+              >
+                Download Resume
+              </button>
                 <a href="+94762320104" className="outline-btn inline-block">{''}Contact</a>
             </div>
         </div>
