@@ -2,6 +2,7 @@ import React from 'react';
 import bawanthapdf from "../../assets/Bawantha.pdf";
 import download from "downloadjs";
 
+
 const About = () => {
     const handleDownload = () => {
         // const resumeUrl = [bawanthapdf];
@@ -23,8 +24,10 @@ const About = () => {
             <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-4xl">About me</h1>
         </div>
         <div className="text-slate-500">
-            <p>Lorem ipsum dolor sit amet. e velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-            <p>Lorem ipsum dolor sit amet,labore et dolore magna aliqua.</p>
+            <p>As a Full Stack Web Developer, I specialize in creating seamless and user-friendly web applications. 
+              My expertise spans both front-end and back-end technologies, allowing me to design and implement robust solutions. 
+              With a keen eye for detail and a passion for innovation, I bring a dynamic approach to every project.</p><br/>
+            <p>Explore my portfolio to see how I blend creativity with technical proficiency to deliver impactful digital experiences.</p>
             <div>
                 {/* <a href="" className="primary-btn inline-block my-6 mr-6">{''}Download Resume</a> */}
                 <button

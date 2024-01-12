@@ -8,15 +8,16 @@ import { MdSecurity } from "react-icons/md";
 
 const Services = [
     {
-      name: "UX research",
+      name: "Sri Lanka E-Participation Portal",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
       image: "https://picsum.photos/200/300",
       icon: <AiFillLayout className="text-4xl" />,
       bgColor: "bg-blue-500/70",
     },
+    
     {
-      name: "App Development",
+      name: "Design System for Sri Lanka",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
       image: "https://picsum.photos/200/301",
@@ -24,7 +25,7 @@ const Services = [
       bgColor: "bg-lime-500/70",
     },
     {
-      name: "Web App Development",
+      name: "ToDo Application",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
       image: "https://picsum.photos/200/302",
