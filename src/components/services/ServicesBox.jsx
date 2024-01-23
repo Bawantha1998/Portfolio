@@ -25,7 +25,7 @@ const Services = [
       bgColor: "bg-lime-500/70",
     },
     {
-      name: "ToDo Application",
+       name: "ToDo Application",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laudantium beatae quidem.",
       image: "https://picsum.photos/200/302",
