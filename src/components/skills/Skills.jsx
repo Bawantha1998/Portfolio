@@ -19,6 +19,10 @@ const Skills = () => {
          <SkillsLevel skillName ="JavaScript" percentage="70%"/>
          <SkillsLevel skillName ="Taildwind,MUI,Bootstrap" percentage="90%"/>
          <SkillsLevel skillName ="React JS" percentage="90%"/>
+         <SkillsLevel skillName ="Node JS" percentage="60%"/>
+         <SkillsLevel skillName ="Nest JS" percentage="60%"/>
+
+
 
 
         </div>
