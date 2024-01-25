@@ -11,7 +11,7 @@ const Hero = () => {
          <p className="uppercase">Hello</p>
          <p className="text-4xl md:text-6xl font-bold text-black/80 dark:text-white">I'm Bawantha Pramod</p>
          <p className="text-3xl text-gray-700 dark:text-white">Full Stack Developer</p>
-         <p className="text-black/75 dark:text-white/70 text-center sm:text-left ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p className="text-black/75 dark:text-white/70 text-center sm:text-left ">Passionate Web Developer, Creative Graphic Designer and Engaging YouTube Content Creator</p>
          <a href="mailto:bawanthapramod918@gmail.com" className="inline-block primary-btn !px-6" >Hire me</a>
         </div>
         </div>
