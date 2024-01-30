@@ -14,9 +14,12 @@ const Skills = () => {
         </div>
         <div className="sm:order-1 text-slate-500">
           {/* programming languages, Frameworks and libraries , DevOps Skills and Tools familiar with databases and cloud technologies */}
+          <p className="">Programming Languages</p>
          <SkillsLevel skillName ="HTML" percentage="90%"/>
          <SkillsLevel skillName ="SCSS" percentage="70%"/>
          <SkillsLevel skillName ="JavaScript" percentage="70%"/>
+         <p className="">Frameworks & Libraries</p>
+
          <SkillsLevel skillName ="Taildwind,MUI,Bootstrap" percentage="90%"/>
          <SkillsLevel skillName ="React JS" percentage="90%"/>
          <SkillsLevel skillName ="Node JS" percentage="60%"/>
