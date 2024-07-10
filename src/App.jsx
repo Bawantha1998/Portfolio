@@ -5,29 +5,17 @@ import Skills from "./components/skills/Skills.jsx";
 import Services from "./components/services/Services.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
-
-
-
-
-
 function App() {
-  
-
   return (
     <>
-    
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Services/>
-      <Footer/>
-
-
-
-
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Services />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
